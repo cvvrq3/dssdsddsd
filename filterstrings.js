@@ -7,6 +7,7 @@ function filterStrings(arr) {
   }
   return result;
 }
+//пример
 let arr = ["Hello", "2", "world", ":-)"];
 let filteredArr = filterStrings(arr);
 console.log(filteredArr); // ["2", ":-)"]
